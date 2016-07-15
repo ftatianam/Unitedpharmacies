@@ -1,0 +1,65 @@
+/* Bootstrap styles
+-----------------------------------------------------------------------------*/
+
+.collapse {
+  display: none;
+}
+
+.collapse.in {
+  display: block;
+}
+
+tr.collapse.in {
+  display: table-row;
+}
+
+tbody.collapse.in {
+  display: table-row-group;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: .35s;
+  -o-transition-duration: .35s;
+  transition-duration: .35s;
+  -webkit-transition-property: height, visibility;
+  -o-transition-property: height, visibility;
+  transition-property: height, visibility;
+}
+
+@media screen and (min-width:961px) {
+  #productnav.collapse {
+    display: block !important;
+    height: auto !important;
+  }
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  background-color: #f6f6f6;
+  min-width: 160px;
+}
+
+.dropdown-menu.right {
+  left: auto;
+  right: 0;
+}
+
+.open > .dropdown-menu {
+  display: block;
+}

@@ -1,0 +1,476 @@
+/* Responsive styles
+-----------------------------------------------------------------------------*/
+
+body {
+  min-width: 320px;
+}
+
+.Wrapper {
+  max-width: 980px;
+  min-width: 320px;
+  width: auto;
+  padding: 0 20px;
+}
+
+.headerTopNav {
+  top: 0;
+}
+
+.logo {
+  padding: 20px 14px 0 14px;
+  width: 30%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.logo a {
+  display: inline-block;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.productnav {
+  width: 70%;
+}
+
+.productnav ul {
+  width: 25%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.productSection ul li {
+  padding: 20px;
+}
+
+.productSection ul li div {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 20px 20px 0;
+  width: 33.3333333%;
+}
+
+.productSection ul li div h4 {
+  padding: 0;
+  word-wrap: break-word;
+}
+
+.productSection ul li div.product-content {
+  float: none;
+  width: auto;
+  padding: 5px 0 5px 104px;
+  min-height: 96px;
+}
+
+.chackOut ul li span {
+  background-image: url(../libs/cart.png);
+  top: 50%;
+  margin: -8px 0 0 -6px;
+}
+
+.chackOut-menu {
+  color: #fff;
+  float: left;
+  margin: 0;
+  display: none;
+}
+
+.selectCountry {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 27px;
+  overflow: visible;
+}
+
+.selectCountry blockquote {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contacts {
+  font-family: Helvetica;
+  color: #808080;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-align: center;
+  display: none;
+}
+
+.contacts a {
+  cursor: pointer;
+}
+
+.contacts a span {
+  color: #029cb5;
+}
+
+.mobile-show {
+  display: none !important;
+}
+
+.productnav-link {
+  display: none;
+  background-color: #27c1da;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  padding: 11px 20px 11px 20px;
+  position: relative;
+  line-height: 18px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+.productnav-link.collapsed {
+  border-radius: 0;
+}
+
+.productnav-link span {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 10px 8px;
+  color: #ffffff;
+  display: block;
+  cursor: pointer;
+  height: 20px;
+  width: 29px;
+  font-size: 16px;
+  font-family: Helvetica;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  vertical-align: middle;
+
+  -moz-transform: rotate(90deg); /* Для Firefox */
+  -ms-transform: rotate(90deg); /* Для IE */
+  -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(90deg); /* Для Opera */
+  transform: rotate(90deg);
+}
+
+.productnav-link.collapsed span {
+  -moz-transform: none; /* Для Firefox */
+  -ms-transform: none; /* Для IE */
+  -webkit-transform: none; /* Для Safari, Chrome, iOS */
+  -o-transform: none; /* Для Opera */
+  transform: none;
+}
+
+.productnav-container {
+  position: relative;
+}
+
+.box_skitter .image a {
+  display: block;
+}
+
+.box_skitter .image a img {
+  width: 100%;
+  height: auto;
+}
+
+.box_skitter.box_skitter_large {
+  width: 100%;
+  height: auto;
+}
+
+.MoreNews {
+  padding: 2px 15px 0 15px;
+  margin-bottom: 30px;
+}
+
+.AboutUnitedPharmacies ul {
+  padding-top: 20px;
+}
+
+.clear {
+  clear: both;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  height: 0;
+}
+
+.headerTopNav .container {
+  overflow: visible;
+}
+
+.viewAccount {
+  height: 26px;
+}
+
+@media screen and (max-width:960px) {
+
+  .chackOut ul li {
+    border-color: transparent !important;
+    float: none;
+    padding: 0 !important;
+  }
+
+  .chackOut ul li a {
+    cursor: pointer;
+  }
+
+  .chackOut ul li a:hover,
+  .chackOut-menu a:hover,
+  .selectCountry a:hover {
+    background: #27c1da;
+  }
+
+  .chackOut.dropdown.open a[data-toggle="dropdown"],
+  .selectCountry.dropdown.open a[data-toggle="dropdown"] {
+    background: #27c1da;
+  }
+
+  .icon {
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+    width: auto;
+    margin: 10px 5px;
+  }
+
+  .icon-number {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    font-size: 14px;
+    color: rgba(255,255,255,0.9);
+    margin-left: 2px;
+  }
+
+  body,
+  .AboutUnitedPharmacies li,
+  .AboutUnitedPharmacies h4 {
+    font-size: 14px;
+  }
+
+  .chackOut-menu {
+    display: block;
+  }
+
+  .topNavLeft {
+    display: none;
+  }
+
+  .mobile-show {
+    display: block !important;
+  }
+
+  .mobile-hide {
+    display: none !important;
+  }
+
+  .viewAccount {
+    display: none;
+  }
+
+  .selectCountry {
+    height: auto;
+    line-height: normal;
+    padding: 0;
+    border-color: transparent !important;
+    background: transparent;
+  }
+
+  .selectCountry blockquote {
+    margin: 0;
+  }
+
+  .selectCountry a,
+  .chackOut-menu a {
+    display: block;
+    padding: 0 15px 0 15px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .headerTopNav2 {
+    padding-top: 45px;
+  }
+
+  .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .productnav {
+    float: none;
+    width: 100%;
+  }
+
+  .contacts {
+    display: block;
+  }
+
+  .productnav-link {
+    display: block;
+  }
+
+  .productnav-container {
+    margin-bottom: 10px;
+    background-color: #f6f6f6;
+  }
+
+  .productnav ul {
+    float: none;
+    width: auto;
+    border: 0;
+  }
+
+  .productnav ul li {
+    padding: 0 !important;
+    border: 0 !important;
+  }
+
+  .productnav ul li a {
+    display: block;
+    padding: 12px 20px;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .productnav ul li a:hover {
+    background: #e9e9e9;
+    border-radius: 0;
+  }
+
+  .topNavLeft, .loginBox, .chackOut {
+    font-size: 12px;
+  }
+
+  .serachPanel {
+    float: none;
+  }
+
+  .serachPanel .searchlabel {
+    display: none;
+  }
+
+  .Breadcrumbs {
+    display: none;
+  }
+
+  .searchBox {
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: none;
+    overflow: visible;
+    border-radius: 0;
+  }
+
+  .container.line {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .searchBox input[type=text] {
+    margin: 10px 0 0 19px;
+    padding: 0 0 5px;
+    border: none;
+    outline: none;
+    float: left;
+    font-size: 15px;
+    width: 80%;
+  }
+
+  .searchBox input[type=submit] {
+    background-color: #27c1da;
+    border: none;
+    outline: none;
+    padding: 0 11px;
+    color: #ffffff;
+    display: block;
+    cursor: pointer;
+    height: 40px;
+    width: 45px;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 16px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .AboutUnitedPharmacies h2,
+  .productSection h2 {
+    font-size: 20px;
+    border-color: #e9e9e9;
+  }
+
+  .productSection ul li,
+  .productSection ul li div blockquote {
+    border-color: #e9e9e9;
+  }
+
+  .productSection ul li div {
+    width: 100%;
+    float: none;
+  }
+
+  .MoreNews a {
+    display: inline-block;
+    background-color: #27c1da;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    padding: 11px 20px 11px 20px;
+    position: relative;
+    line-height: 18px;
+    border-radius: 20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .MoreNews a span {
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .productSection ul li div h4 {
+    font-size: 15px;
+    max-width: 450px;
+  }
+
+  .productSection ul li div strong,
+  .productSection ul li div strong span{
+    font-size: 14px;
+  }
+
+  .home_price_from {
+    font-size: 12px;
+  }
+
+  .copyRight {
+    border: 0;
+    font-size: 12px;
+  }
+
+  .copyRight-content {
+    display: block;
+    margin-top: 5px;
+  }
+
+}
