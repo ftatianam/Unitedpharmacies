@@ -226,7 +226,7 @@ body {
     background: #27c1da;
   }
 
-  .chackOut.dropdown.open a[data-toggle="dropdown"],
+  .chackOut-menu.dropdown.open a[data-toggle="dropdown"],
   .selectCountry.dropdown.open a[data-toggle="dropdown"] {
     background: #27c1da;
   }
